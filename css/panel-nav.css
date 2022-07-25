@@ -3,8 +3,8 @@
 } */
 
 #panel, #nav {
-    animation: fadein 18s;
-    -webkit-animation: fadein 18s;
+    animation: fadein 16s;
+    -webkit-animation: fadein 16s;
 }
 
 @keyframes fadein {
@@ -12,7 +12,7 @@
         opacity: 0;
     }
 
-    80% {
+    60% {
         opacity: 0;
     }
 
@@ -27,8 +27,7 @@
     0% {
         opacity: 0;
     }
-
-    80% {
+    60% {
         opacity: 0;
     }
 
