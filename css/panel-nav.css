@@ -1,0 +1,38 @@
+/* #panel {
+    display: none;
+} */
+
+#panel, #nav {
+    animation: fadein 18s;
+    -webkit-animation: fadein 18s;
+}
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    0% {
+        opacity: 0;
+    }
+
+    80% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
