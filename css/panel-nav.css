@@ -1,7 +1,7 @@
-/* #panel {
+/* /* #panel {
     display: none;
     font-family: 'Times New Roman', Times, serif;
-}
+} 
 
 #panel, #nav {
     animation: fadein 16s;
@@ -24,7 +24,7 @@
 
 @-webkit-keyframes fadein {
 
-    /* Safari and Chrome
+    /* Safari and Chrome 
     0% {
         opacity: 0;
     }
@@ -35,4 +35,4 @@
     100% {
         opacity: 1;
     }
-}*/
+} */
