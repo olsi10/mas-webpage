@@ -74,7 +74,7 @@ a:visited {
     width: 59px;
     height: 58px;
     background-color: #ffffff;
-    margin: 2% 1% 1% 1%;
+    margin: 30px 0 0 20px;
 }
 
 .nav-list {
@@ -110,7 +110,7 @@ a:visited {
     width: 1px;
     height: 1500px;
     border-left: 1px solid #ffffff;
-    margin-left: -4px;
+    margin-left: 7%;
 }
 
 .nav-right {
