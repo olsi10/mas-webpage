@@ -27,6 +27,10 @@ span {
     text-align: center;
 }
 
+section {
+    width: 60%;
+}
+
 video {
     width: 100%;
     height: 100vh;
@@ -302,4 +306,13 @@ ul.nav-right > li:nth-child(2) {
     font-size: 10px;
     font-style: 'Noto Sans KR', sans-serif;
     font-weight: 100;
+}
+
+@media (max-width : 1298.40px) {
+    .the-text {
+        margin-top: 520px;
+    }
+    .intro-text {
+        font-size: 12px;
+    }
 }
