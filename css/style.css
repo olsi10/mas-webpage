@@ -184,12 +184,6 @@ ul.nav-right > li:nth-child(2) {
     left: 41vw;
 }
 
-.club-name {
-    width: 100%;
-    display: block;
-    justify-content: flex-end;
-}
-
 .name-text {
     font-family: 'Times New Roman', Times, serif;
     font-size: 6.8rem;
@@ -207,7 +201,7 @@ ul.nav-right > li:nth-child(2) {
 
 .the-text {
     font-family: 'Noto Sans KR', sans-serif;
-    margin-top: 490px;
+    margin-top: 475px;
     display: flex;
     justify-content: space-around;
     margin-left: 250px;
@@ -276,10 +270,11 @@ ul.nav-right > li:nth-child(2) {
 
 .f-panel {
     display: flex;
-    margin-top: 2100px;
+    margin-top: 1300px;
+    margin-bottom: 50px;
     position: absolute;
     width: 78%;
-    height: 250px;
+    height: 120px;
     z-index: 99;
     margin-left: 10%;
 }
