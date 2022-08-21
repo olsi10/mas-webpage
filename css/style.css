@@ -19,6 +19,10 @@ html::-webkit-scrollbar {
     display: none;
 }
 
+video::-webkit-scrollbar {
+    display: none;
+}
+
 span {
     display: block;
     margin: 0 auto;
@@ -107,7 +111,7 @@ a:visited {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    margin: 47px 6% 10px 0;
+    margin: 46px 4% 8px 0;
     padding: 0;
     border-right: 1px;
     border-color: white;
@@ -127,7 +131,7 @@ a:visited {
 .hr-div {
     display: flex;
     width: 1px;
-    height: 1500px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
     margin-right: 10px;
 }
@@ -135,7 +139,7 @@ a:visited {
 .hr-div2 {
     display: flex;
     width: 1px;
-    height: 1500px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
     margin-left: -4px;
 }
