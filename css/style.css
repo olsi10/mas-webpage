@@ -111,7 +111,7 @@ a:visited {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    margin: 46px 4% 8px 0;
+    margin: 46px 5.9% 8px 0;
     padding: 0;
     border-right: 1px;
     border-color: white;
@@ -133,7 +133,6 @@ a:visited {
     width: 1px;
     height: 3000px;
     border-left: 1px solid #ffffff;
-    margin-right: 10px;
 }
 
 .hr-div2 {
