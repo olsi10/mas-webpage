@@ -58,11 +58,6 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
  100% { color: #ffffff; }
 }
 
-/* a 태그 갔다왔을 때 색깔*/
-a:visited {
-    color: rgb(134, 134, 134);
-}
-
 #nav {
     height: 60px;
     display: flex;
@@ -112,6 +107,14 @@ a:visited {
     width: 11%;
     float: left;
     margin-right: 4%;
+    color: #585858;
+}
+
+/* 계속 선택자가 안 먹혀서 임폴턴트 먹였음! */
+/* 첫번째 선택자부터 2개씩 띄어서 선택 */
+/* ABOUT <MEMBER> Project */
+
+ul.nav-list > li:nth-child(2n+1) > a {
     color: #585858;
 }
 
@@ -288,6 +291,7 @@ ul.nav-right > li:nth-child(2) {
 .grade-list {
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
 
 .project {
