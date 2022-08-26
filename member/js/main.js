@@ -15,9 +15,13 @@ let role = ["DESIGN", "SOFTWARE", "WEBSOLUTION"];
 let names = document.getElementsByClassName('f-title');
 let roles = document.getElementsByClassName('f-content1');
 let intro = document.getElementsByClassName('f-content2');
+let t2 = document.getElementById('t2');
+let arrow = document.getElementById('arrow');
 
 function change_option(val) {
 	if (val === 1) {
+        t2.innerText = "1ST MEMBER";
+        arrow.innerText = "View more 1ST PROJECT";
         for(let i = 0; i<6; i++) {
             names[i+1].innerText = grade3[i];
             roles[i+1].innerText = "11기 "+role[i%3];
@@ -25,12 +29,16 @@ function change_option(val) {
 
         }
 	} else if (val === 2) {
+        t2.innerText = "1.5ND MEMBER";
+        arrow.innerText = "View more 1.5ND PROJECT";
 		for(let i = 0; i<6; i++) {
             names[i+1].innerText = grade2[i];
             roles[i+1].innerText = "12기 "+role[i%3];
             intro[i+1].innerText = grade2intro[i];
         }
 	} else if (val === 3) {
+        t2.innerText = "2ND MEMBER";
+        arrow.innerText = "View more 2ND PROJECT";
         for(let i = 0; i<6; i++) {
             names[i+1].innerText = grade1[i];
             roles[i+1].innerText = "13기 "+role[i%3];
