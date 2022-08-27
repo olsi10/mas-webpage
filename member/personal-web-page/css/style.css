@@ -153,7 +153,7 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .t {
-    position: fixed;
+    position: absolute;
     display: block;
     width: 20%;
     left: 14%;
@@ -166,6 +166,7 @@ ul.nav-right > li:nth-child(2) {
     font-weight: normal;
     color: #585858;
     text-align: start;
+    margin-left: 4px;
 }
 
 .t2 {
@@ -338,7 +339,7 @@ ul.nav-right > li:nth-child(2) {
     font-family: 'Noto Sans KR', sans-serif;
     position: fixed;
     width: 34%;
-    top: 22%;
+    top: 20%;
     left: 51%;
     display: block;
     align-items: flex-start;
@@ -346,23 +347,23 @@ ul.nav-right > li:nth-child(2) {
 
 .personal-hashtag {
     width: 100%;
-    font-size: 20px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: 400;
     text-align: start;
 }
 
 .personal-intro {
     width: 104%;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 100;
+    margin-top: 5px;
+    font-size: 15px;
+    font-weight: 300;
     text-align: start;
 }
 
 .license {
     position: fixed;
     width: 34%;
-    top: 38%;
+    top: 36%;
     left: 51%;
     display: block;
 }
@@ -377,7 +378,7 @@ ul.nav-right > li:nth-child(2) {
 .flagship-project {
     position: fixed;
     width: 34%;
-    top: 55%;
+    top: 53%;
     left: 51%;
     display: block;
 }
@@ -418,7 +419,7 @@ ul.nav-right > li:nth-child(2) {
 .skill {
     position: fixed;
     width: 34%;
-    top: 72%;
+    top: 69%;
     left: 51%;
     display: block;
 }
@@ -443,7 +444,7 @@ ul.nav-right > li:nth-child(2) {
   .circular-chart {
     display: block;
     margin: 10px 0;
-    max-width: 90%;
+    max-width: 82%;
     max-height: 250px;
   }
   
@@ -520,3 +521,16 @@ ul.nav-right > li:nth-child(2) {
     font-size: 0.5em;
     text-anchor: middle;
   }
+
+.moto {
+    position: absolute;
+    width: 19%;
+    margin-top: 28%;
+    left: 10.4%;
+}
+
+.personal-moto {
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+}

@@ -152,7 +152,7 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .t {
-    position: fixed;
+    position: absolute;
     display: block;
     width: 20%;
     left: 14%;
@@ -165,6 +165,7 @@ ul.nav-right > li:nth-child(2) {
     font-weight: normal;
     color: #585858;
     text-align: start;
+    margin-left: 4px;
 }
 
 .t2 {
