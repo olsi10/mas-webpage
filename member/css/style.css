@@ -123,7 +123,7 @@ ul.nav-list > li:nth-child(2n+1) > a {
 .hr-div2 {
     display: flex;
     width: 1px;
-    height: 1500px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
     margin-left: -2px;
 }
@@ -131,7 +131,7 @@ ul.nav-list > li:nth-child(2n+1) > a {
 .hr-div {
     display: flex;
     width: 1px;
-    height: 1500px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
     margin-right: -16px;
 }
@@ -180,7 +180,7 @@ ul.nav-right > li:nth-child(2) {
     margin-top: 204px;
     position: absolute;
     width: 80%;
-    height: 95.32vh;
+    height: 100vh;
     z-index: 99;
     margin-left: 16%;
 }
@@ -197,7 +197,7 @@ ul.nav-right > li:nth-child(2) {
     margin-left: 14%;
 }
 
-.p-img {
+.f-img {
     width:15.62vw;
     height:15.62vh;
     margin-bottom:2%;

@@ -179,9 +179,10 @@ ul.nav-right > li:nth-child(2) {
     margin-top: 204px;
     position: absolute;
     width: 80%;
-    height: auto;
+    height: 95.32vh;
     z-index: 99;
     margin-left: 16%;
+    margin-left: 14%;
 }
 
 .footer {
@@ -207,14 +208,16 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .f-img {
-    width: 100%;
-    height: 120px;
-    background-color: #ffffff;
+    width:15.62vw;
+    height:15.62vh;
+    margin-bottom:2%;
+    background-color: white;
 }
 
 .f-title {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
+    margin-bottom: 1.26vh;
 }
 
 .f-content1 {
