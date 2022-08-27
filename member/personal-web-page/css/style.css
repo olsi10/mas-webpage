@@ -362,28 +362,32 @@ ul.nav-right > li:nth-child(2) {
 .license {
     position: fixed;
     width: 34%;
-    top: 40%;
+    top: 38%;
     left: 51%;
     display: block;
 }
 
 .personal-license {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 20px;
     font-weight: bold;
     text-align: start;
 }
 
-/* .license-list {
-    list-style:none;
-    padding: 0;
-    font-family: 'Noto Sans KR', sans-serif;
+.flagship-project {
+    position: fixed;
+    width: 34%;
+    top: 55%;
+    left: 51%;
+    display: block;
 }
 
-.license-list > li {
-    font-size: 9px;
-    font-weight: 300;
-} */
+.flag-pro {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+}
 
 .tg  {
     border-collapse:collapse;border-spacing:0;
@@ -394,7 +398,7 @@ ul.nav-right > li:nth-child(2) {
     font-size:10px;
     font-weight: 200;
     overflow:hidden;
-    padding: 5px 40px 5px 0;
+    padding: 2px 40px 5px 0;
     word-break:normal;
 }
 
@@ -403,10 +407,116 @@ ul.nav-right > li:nth-child(2) {
     font-size:10px;
     font-weight: 200;
     overflow:hidden;
-    padding: 5px 40px 5px 0;
+    padding: 2px 40px 5px 0;
     word-break:normal;
 }
 
 .tg .tg-0lax {text-align:left;
     vertical-align:top
 }
+
+.skill {
+    position: fixed;
+    width: 34%;
+    top: 72%;
+    left: 51%;
+    display: block;
+}
+
+.sk {
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.flex-wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  
+  .single-chart {
+    width: 33%;
+    justify-content: space-around ;
+  }
+  
+  .circular-chart {
+    display: block;
+    margin: 10px 0;
+    max-width: 90%;
+    max-height: 250px;
+  }
+  
+  .circle-bg {
+    fill: none;
+    stroke: #eee;
+    stroke-width: 3.8;
+  }
+
+  .skill-kind1 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 51.8%;
+    position: fixed;
+  }
+
+  .skill-kind2 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 59%;
+    position: fixed;
+  }
+
+  .skill-kind3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 65.7%;
+    position: fixed;
+  }
+
+  .skill-kind4 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 72.6%;
+    position: fixed;
+  }
+
+  .skill-kind5 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 10px;
+    left: 79.4%;
+    position: fixed;
+  }
+  
+  .circle {
+    fill: none;
+    stroke-width: 2.8;
+    stroke-linecap: round;
+    animation: progress 1s ease-out forwards;
+  }
+  
+  @keyframes progress {
+    0% {
+      stroke-dasharray: 0 100;
+    }
+  }
+  
+  
+  .circular-chart.orange .circle {
+    stroke: #FF0000;
+  }
+  
+  .circular-chart.green .circle {
+    stroke: #FF0000;
+  }
+  
+  .circular-chart.blue .circle {
+    stroke: #FF0000;
+  }
+  
+  .percentage {
+    fill: rgb(255, 255, 255);
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 0.5em;
+    text-anchor: middle;
+  }
