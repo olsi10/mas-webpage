@@ -260,6 +260,7 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .arrow {
+    z-index: 99;
     font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     position: absolute;
@@ -268,9 +269,14 @@ ul.nav-right > li:nth-child(2) {
     align-items: center;
 }
 
+.text-arrow:hover {
+    cursor: pointer;
+}
+
 .img-arrow {
     width: 58px;
     height: 52px;
+    cursor: pointer;
 }
 
 .text-arrow {
