@@ -152,24 +152,26 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .t {
-    position: absolute;
+    position: fixed;
     display: block;
-    width: 30%;
-    left: 7%;
-    top: 9px;
+    width: 20%;
+    left: 14%;
+    top: 15px;
 }
 
 .t1 {
-    font-size: 17px;
+    font-size: 13px;
     font-family: 'Noto Sans KR', sans-serif;
-    font-weight: 100;
+    font-weight: normal;
     color: #585858;
+    text-align: start;
 }
 
 .t2 {
-    font-size: 33px;
+    font-size: 30px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
+    text-align: start;
 }
 
 .f-panel {
