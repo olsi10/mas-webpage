@@ -57,6 +57,11 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
  100% { color: #ffffff; }
 }
 
+/* a 태그 갔다왔을 때 색깔*/
+a:visited {
+    color: rgb(134, 134, 134);
+}
+
 #nav {
     height: 60px;
     display: flex;
@@ -106,14 +111,6 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
     width: 11%;
     float: left;
     margin-right: 4%;
-    color: #585858;
-}
-
-/* 계속 선택자가 안 먹혀서 임폴턴트 먹였음! */
-/* 앞에서 두 개 선택한다. */
-/* ABOUT <MEMBER <Project> */
-
-ul.nav-list > li:nth-child(-n+2) > a {
     color: #585858;
 }
 
@@ -181,7 +178,6 @@ ul.nav-right > li:nth-child(2) {
     width: 80%;
     height: 95.32vh;
     z-index: 99;
-    margin-left: 16%;
     margin-left: 14%;
 }
 
@@ -262,19 +258,6 @@ ul.nav-right > li:nth-child(2) {
     align-items: center;
     margin-top: 1px;
     margin-left: 10px;
-}
-
-.grade {
-    position:fixed;
-    top : 18%;
-    right:4%;
-    display : flex;
-}
-
-.grade-list {
-    display: flex;
-    flex-direction: column;
-    cursor: pointer;
 }
 
 /* 움직이는 모션 */

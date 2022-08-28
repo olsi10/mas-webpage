@@ -24,10 +24,11 @@ window.addEventListener("wheel", function(e){
 },{passive : false});
 
 let $html = $("html");
+ 
 let page = 1;
+ 
 let lastPage = $(".container").length;
-console.log(lastPage);
-
+ 
 $html.animate({scrollTop:0},10);
 
 $(window).on("wheel", function(e){
@@ -43,7 +44,7 @@ $(window).on("wheel", function(e){
  
 		page--;
 	}
-  let posTop = (page-1) * $(window).height();
+	let posTop = (page-1) * $(window).height();
  
 	$html.animate({scrollTop : posTop});
  
