@@ -64,7 +64,7 @@ a:visited {
 }
 
 #nav {
-    height: 12.62vh;
+    height: 7.6vh;
     display: flex;
     padding: 16px;
     position: fixed;
@@ -118,21 +118,17 @@ a:visited {
 /* 세로 구분선 */
 
 .hr-div2 {
-    height:3000px;
-    left: 12.76vw;
-    position: fixed;
-    display: flex;
-    width: 1px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
+    left: 10vw;
+    position: absolute;
 }
 
 .hr-div {
-    height:3000px;
-    right: 12.76vw;
-    position: fixed;
-    display: flex;
-    width: 1px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
+    right: 11vw;
+    position: absolute;
 }
 
 .nav-right {
@@ -156,7 +152,7 @@ ul.nav-right > li:nth-child(2) {
     display: block;
     width: 30%;
     left: 7%;
-    top: 30%;
+    top: 1vh;
 }
 
 .t1 {
@@ -174,17 +170,21 @@ ul.nav-right > li:nth-child(2) {
     left: 41%;
 }
 
+.main {
+    padding-top:  5.68vh;
+}
+
 .f-panel {
     font-family: 'Noto Sans KR', sans-serif;
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    margin-top: 7.5vh;
     position: relative;
-    width: 80%;
+    width: 70vw;
     height: 100vh;
     z-index: 99;
-    margin-left: 22.39vw;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .f-panel2 {
@@ -192,11 +192,13 @@ ul.nav-right > li:nth-child(2) {
     justify-content: space-evenly;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    width: 80%;
+    position: relative;
+    width: 65vw;
     height: 95.32vh;
     z-index: 99;
-    margin-left: 19.32vw;
+    margin-top: 4.68vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .f-img {
@@ -223,30 +225,30 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .section {
-    width: 250px;
+    width: 17.27vw;
     display: block;
 }
 
 .f-title {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1.26vh;
 }
 
 .f-title2 {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 1.26vh;
 }
 
 .f-content1 {
     color: #585858;
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
 .f-content2 {
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .panel {
@@ -264,8 +266,7 @@ ul.nav-right > li:nth-child(2) {
     font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     position: absolute;
-    top: 75.28vh;
-    left: 20.39vw;
+    left: -2vw;
     align-items: center;
 }
 
