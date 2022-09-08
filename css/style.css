@@ -179,7 +179,7 @@ ul.nav-right > li:nth-child(2) {
 
 .main-text {
     position: absolute;
-    top:16.19vh;
+    top:13.19vh;
     left: 41vw;
 }
 
@@ -200,7 +200,7 @@ ul.nav-right > li:nth-child(2) {
 
 .the-text {
     font-family: 'Noto Sans KR', sans-serif;
-    margin-top: 68.55vh;
+    margin-top: 65.55vh;
     display: flex;
     justify-content: space-around;
     margin-left: 250px;
