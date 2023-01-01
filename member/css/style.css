@@ -58,8 +58,13 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
  100% { color: #ffffff; }
 }
 
+/* a 태그 갔다왔을 때 색깔*/
+a:visited {
+    color: rgb(134, 134, 134);
+}
+
 #nav {
-    height: 60px;
+    height: 7.6vh;
     display: flex;
     padding: 16px;
     position: fixed;
@@ -71,6 +76,12 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
     background-color: black;
     border-bottom: 1px solid #ffffff;
     transition: top 0.3s;
+}
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 .nav {
@@ -110,30 +121,20 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
     color: #585858;
 }
 
-/* 계속 선택자가 안 먹혀서 임폴턴트 먹였음! */
-/* 첫번째 선택자부터 2개씩 띄어서 선택 */
-/* ABOUT <MEMBER> Project */
-
-ul.nav-list > li:nth-child(2n+1) > a {
-    color: #585858;
-}
-
 /* 세로 구분선 */
 
 .hr-div2 {
-    display: flex;
-    width: 1px;
-    height: 1500px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
-    margin-left: -2px;
+    left: 10vw;
+    position: absolute;
 }
 
 .hr-div {
-    display: flex;
-    width: 1px;
-    height: 1500px;
+    height: 3000px;
     border-left: 1px solid #ffffff;
-    margin-right: -16px;
+    right: 11vw;
+    position: absolute;
 }
 
 .nav-right {
@@ -155,24 +156,30 @@ ul.nav-right > li:nth-child(2) {
 .t {
     position: absolute;
     display: block;
-    width: 20%;
-    left: 14%;
-    top: 15px;
+    width: 30%;
+    left: 7%;
+    top: 20px;
 }
-
 .t1 {
-    font-size: 13px;
+    font-size: 0.7rem;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: normal;
     color: #585858;
     text-align: start;
-    margin-left: 4px;
+    margin-left: 41%;
 }
 
 .t2 {
-    font-size: 30px;
+    top:5px;
+    font-size: 2rem;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: 400;
+    position:absolute;
+    left: 41%;
+}
+
+.main {
+    padding-top:  5.68vh;
     text-align: start;
 }
 
@@ -180,52 +187,54 @@ ul.nav-right > li:nth-child(2) {
     font-family: 'Noto Sans KR', sans-serif;
     justify-content: space-evenly;
     display: flex;
-    margin-top: 204px;
-    position: absolute;
-    width: 80%;
-    height: 95.32vh;
+    flex-direction: column;
+    position: relative;
+    width: 70vw;
+    height: 100vh;
     z-index: 99;
-    margin-left: 16%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .f-panel2 {
     font-family: 'Noto Sans KR', sans-serif;
     justify-content: space-evenly;
     display: flex;
-    margin-top: 800px;
-    position: absolute;
-    width: 80%;
+    flex-direction: column;
+    position: relative;
+    width: 65vw;
     height: 95.32vh;
     z-index: 99;
-    margin-left: 14%;
+    margin-top: 4.68vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.p-img {
+.f-img {
     width:15.62vw;
     height:15.62vh;
     margin-bottom:2%;
     background-color: white;
 }
 
-.footer {
+/* .footer {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: baseline;
-    gap: 80px;
-}
+    gap: 5.98vw;
+} */
 
 .footer1 {
     width: 100%;
     display: flex;
     align-items: baseline;
-    flex-direction: column;
-    gap: 80px;
+    gap: 8.12vw;
     justify-content: flex-start;
 }
 
 .section {
-    width: 250px;
+    width: 17.27vw;
     display: block;
 }
 
@@ -234,34 +243,34 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .f-title {
-    font-size: 20px;
+    font-size: 1rem;
     font-weight: 400;
     margin-bottom: 1.26vh;
 }
 
 .f-title2 {
-    font-size: 18px;
+    font-size: 0.9rem;
     font-weight: 400;
     margin-bottom: 1.26vh;
 }
 
 .f-content1 {
     color: #585858;
-    font-size: 12px;
+    font-size: 0.8rem;
     font-weight: bold;
 }
 
 .f-content2 {
-    font-size: 14px;
+    font-size: 0.8rem;
 }
 
 .panel {
     margin: 0 auto;
     position: absolute;
-    top: 10px;
+    top: 72px;
     width: 78%;
-    height: 80%;
-    margin-top: 130px;
+    height: 100vh;
+    margin-top: 11.32vh;
     z-index: 99;
     margin-left: 10%;
 }
@@ -271,8 +280,7 @@ ul.nav-right > li:nth-child(2) {
     font-family: 'Noto Sans KR', sans-serif;
     display: flex;
     position: absolute;
-    top: 549px;
-    left: 13%;
+    left: -2vw;
     align-items: center;
 }
 
@@ -281,8 +289,8 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .img-arrow {
-    width: 58px;
-    height: 52px;
+    width: 80px;
+    height: auto;
     cursor: pointer;
 }
 
@@ -304,7 +312,6 @@ ul.nav-right > li:nth-child(2) {
 .grade-list {
     display: flex;
     flex-direction: column;
-    cursor: pointer;
 }
 
 .project {
@@ -322,3 +329,6 @@ ul.nav-right > li:nth-child(2) {
 	100% {margin-top: 10px;}
 }
 
+@media screen and (max-width:768px) {
+    
+}

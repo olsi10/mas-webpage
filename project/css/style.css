@@ -57,6 +57,11 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
  100% { color: #ffffff; }
 }
 
+/* a 태그 갔다왔을 때 색깔*/
+a:visited {
+    color: rgb(134, 134, 134);
+}
+
 #nav {
     height: 60px;
     display: flex;
@@ -106,14 +111,6 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
     width: 11%;
     float: left;
     margin-right: 4%;
-    color: #585858;
-}
-
-/* 계속 선택자가 안 먹혀서 임폴턴트 먹였음! */
-/* 앞에서 두 개 선택한다. */
-/* ABOUT <MEMBER <Project> */
-
-ul.nav-list > li:nth-child(-n+2) > a {
     color: #585858;
 }
 
@@ -182,9 +179,9 @@ ul.nav-right > li:nth-child(2) {
     margin-top: 204px;
     position: absolute;
     width: 80%;
-    height: auto;
+    height: 95.32vh;
     z-index: 99;
-    margin-left: 16%;
+    margin-left: 14%;
 }
 
 .footer {
@@ -210,14 +207,16 @@ ul.nav-right > li:nth-child(2) {
 }
 
 .f-img {
-    width: 100%;
-    height: 120px;
-    background-color: #ffffff;
+    width:15.62vw;
+    height:15.62vh;
+    margin-bottom:2%;
+    background-color: white;
 }
 
 .f-title {
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 400;
+    margin-bottom: 1.26vh;
 }
 
 .f-content1 {
@@ -265,6 +264,8 @@ ul.nav-right > li:nth-child(2) {
     margin-left: 10px;
 }
 
+<<<<<<< HEAD
+=======
 .text-arrow:hover {
     cursor: pointer;
 }
@@ -282,6 +283,7 @@ ul.nav-right > li:nth-child(2) {
     cursor: pointer;
 }
 
+>>>>>>> 72bbca33c8db7659f3e62e5c67029c5e850b12fe
 /* 움직이는 모션 */
 .arrow {text-align: center; margin-top: 20px;}
 .img-arrow, .text-arrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}

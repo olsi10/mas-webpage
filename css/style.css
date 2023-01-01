@@ -7,7 +7,7 @@
 
 html, body {
     width: 100%;
-    height: 800px;
+    height: 100vh;
     margin : 0;
     padding: 0;
     overflow-x: hidden;
@@ -36,7 +36,7 @@ section {
 
 video {
     width: 100%;
-    height: 100vh;
+    height: 99.5vh;
     object-fit: cover;
 }
 
@@ -66,6 +66,11 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
 @keyframes colorChange {     
  0% { color: #585858;; }
  100% { color: #ffffff; }
+}
+
+a:visited {
+    /* a 태그 갔다왔을 때 색깔 black*/
+    color: rgb(134, 134, 134);
 }
 
 #nav {
@@ -121,10 +126,6 @@ a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;}
     color: #585858;
 }
 
-ul.nav-list > li:nth-child(n+2) > a {
-    color: #585858;
-}
-
 /* 세로 구분선 */
 
 .hr-div {
@@ -153,7 +154,7 @@ ul.nav-list > li:nth-child(n+2) > a {
     color: #585858;
 }
 
-ul.nav-right > li:nth-child(1) {
+ul.nav-right > li:nth-child(2) {
     color: #ffffff;
 }
 
@@ -178,7 +179,7 @@ ul.nav-right > li:nth-child(1) {
 
 .main-text {
     position: absolute;
-    top:40px;
+    top:13.19vh;
     left: 41vw;
 }
 
@@ -199,7 +200,7 @@ ul.nav-right > li:nth-child(1) {
 
 .the-text {
     font-family: 'Noto Sans KR', sans-serif;
-    margin-top: 475px;
+    margin-top: 65.55vh;
     display: flex;
     justify-content: space-around;
     margin-left: 250px;
@@ -258,8 +259,8 @@ ul.nav-right > li:nth-child(1) {
 }
 
 .sub-img {
-    top: -10px;
-    width: 37.18%;
+    margin-top: -16vh;
+    width: 37.51vw;
 }
 
 .img {
@@ -268,7 +269,7 @@ ul.nav-right > li:nth-child(1) {
 
 .f-panel {
     display: flex;
-    margin-top: 1300px;
+    margin-top: 110vh;
     margin-bottom: 50px;
     position: absolute;
     width: 78%;
