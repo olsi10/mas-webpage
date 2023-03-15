@@ -51,6 +51,11 @@ a {
     text-decoration: none; /* 밑줄 제거 */
 }
 
+button {
+    outline: 0;
+    border: 0;
+}
+
 /* duration 걸리는 시간, 0% -> 100%로 갈 수록 색이 #585858 -> #fffff로 변함 */
 a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;} 
 @keyframes colorChange {     
@@ -95,10 +100,14 @@ button {
 }
 
 .logo {
-    width: 80px;
+    width: 63px;
     height: 58px;
-    background-color: #ffffff;
-    margin: 2% 1% 1% 1%;
+    margin: 2% 91% 1% 1%;
+    position: absolute;
+}
+
+.logo img {
+    width: 100%;
 }
 
 .nav-list {
@@ -123,19 +132,21 @@ button {
 
 /* 세로 구분선 */
 
-.hr-div2 {
+.hr-div {
+    display: flex;
+    width: 1px;
     height: 3000px;
     border-left: 1px solid #ffffff;
-    left: 10vw;
-    position: absolute;
 }
 
-.hr-div {
+.hr-div2 {
+    display: flex;
+    width: 1px;
     height: 3000px;
     border-left: 1px solid #ffffff;
-    right: 11vw;
-    position: absolute;
+    margin-left: 162px;
 }
+
 
 .nav-right {
     display: block;
@@ -147,6 +158,7 @@ button {
     color: #585858;
 }
 
+
 /* 멤버 페이지일 때 >>> member 텍스트 흰색*/
 
 ul.nav-right > li:nth-child(2) {
@@ -157,7 +169,7 @@ ul.nav-right > li:nth-child(2) {
     position: absolute;
     display: block;
     width: 30%;
-    left: 7%;
+    left: 3%;
     top: 20px;
 }
 .t1 {
@@ -314,6 +326,10 @@ ul.nav-right > li:nth-child(2) {
     flex-direction: column;
 }
 
+.grade-list:hover {
+    cursor: pointer;
+}
+
 .project {
     position:relative;
     width:80%;
@@ -332,3 +348,12 @@ ul.nav-right > li:nth-child(2) {
 @media screen and (max-width:768px) {
     
 }
+
+#panel > div:nth-child(1) > div:nth-child(1) > div.f-img img {
+    width: 100%;
+}
+
+/* #panel > div:nth-child(1) > div:nth-child(1) > div.f-img {
+    background: url("./img/pj1.png") no-repeat;
+    background-size: 100% 100%;
+} */
