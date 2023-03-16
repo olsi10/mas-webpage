@@ -69,7 +69,7 @@ a:visited {
 }
 
 #nav {
-    height: 7.6vh;
+    height: 60px;
     display: flex;
     padding: 16px;
     position: fixed;
@@ -115,7 +115,7 @@ button {
     display: flex;
     justify-content: flex-end;
     list-style-type: none;
-    margin: 46px 5.9% 8px 0;
+    margin: 46px -4% 8px 0;
     padding: 0;
     border-right: 1px;
     border-color: white;
@@ -130,6 +130,10 @@ button {
     color: #585858;
 }
 
+#nav > nav > ul.nav-list > li:nth-child(2) {
+    color: #fff;
+}
+
 /* 세로 구분선 */
 
 .hr-div {
@@ -137,6 +141,7 @@ button {
     width: 1px;
     height: 3000px;
     border-left: 1px solid #ffffff;
+    margin-left: 128px;
 }
 
 .hr-div2 {
@@ -147,6 +152,9 @@ button {
     margin-left: 162px;
 }
 
+#nav > nav > ul.nav-list > li:nth-child(2) > a {
+    color: #fff;
+}
 
 .nav-right {
     display: block;
@@ -243,6 +251,7 @@ ul.nav-right > li:nth-child(2) {
     align-items: baseline;
     gap: 8.12vw;
     justify-content: flex-start;
+    margin-left: 53px;
 }
 
 .section {
@@ -337,7 +346,7 @@ ul.nav-right > li:nth-child(2) {
 }
 
 /* 움직이는 모션 */
-.arrow {text-align: center; margin-top: 20px;}
+.arrow {text-align: center; margin-top: 20px;     margin-left: 76px;}
 .img-arrow, .text-arrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}
         
 @keyframes motion {

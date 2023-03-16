@@ -88,10 +88,14 @@ a:visited {
 }
 
 .logo {
-    width: 80px;
+    width: 63px;
     height: 58px;
-    background-color: #ffffff;
-    margin: 2% 1% 1% 1%;
+    margin: 2% 91% 1% 1%;
+    position: absolute;
+}
+
+.logo img {
+    width: 100%;
 }
 
 .nav-list {
@@ -121,15 +125,17 @@ a:visited {
     width: 1px;
     height: 1500px;
     border-left: 1px solid #ffffff;
-    margin-left: -2px;
+    margin-left: 163px;
 }
+
+
 
 .hr-div {
     display: flex;
     width: 1px;
     height: 1500px;
     border-left: 1px solid #ffffff;
-    margin-right: -16px;
+    margin-right: -13px;
 }
 
 .nav-right {
@@ -264,8 +270,6 @@ ul.nav-right > li:nth-child(2) {
     margin-left: 10px;
 }
 
-<<<<<<< HEAD
-=======
 .text-arrow:hover {
     cursor: pointer;
 }
@@ -283,7 +287,6 @@ ul.nav-right > li:nth-child(2) {
     cursor: pointer;
 }
 
->>>>>>> 72bbca33c8db7659f3e62e5c67029c5e850b12fe
 /* 움직이는 모션 */
 .arrow {text-align: center; margin-top: 20px;}
 .img-arrow, .text-arrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}
