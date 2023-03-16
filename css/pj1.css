@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+
+* {
+    /* outline: solid 1px red; */
+    color: white;
+}
+
+html, body {
+    width: 100%;
+    height: 800px;
+    margin : 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: black;
+    border-right: thin solid #ffffff;
+}
+
+html::-webkit-scrollbar { /* 스크롤바 안 보이게 */
+    display: none;
+}
+
+span {
+    display: block;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+}
+
+video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+nav {
+    align-items: center;
+    display: flex;
+    flex-direction: row; /* 가로 나열 */
+}
+
+li {
+    float: left;
+    font-size : 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-style: bold;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none; /* 밑줄 제거 */
+}
+
+/* duration 걸리는 시간, 0% -> 100%로 갈 수록 색이 #585858 -> #fffff로 변함 */
+a:hover, a:focus { animation-duration: 1.5s; animation-name: colorChange;} 
+@keyframes colorChange {     
+ 0% { color: #585858;; }
+ 100% { color: #ffffff; }
+}
+
+/* a 태그 갔다왔을 때 색깔*/
+a:visited {
+    color: rgb(134, 134, 134);
+}
+
+#nav {
+    height: 60px;
+    display: flex;
+    padding: 16px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    align-items: center;
+    z-index: 100;
+    background-color: black;
+    border-bottom: 1px solid #ffffff;
+    transition: top 0.3s;
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 72px;
+    bottom: 0;
+    z-index: 99;
+    top: 0;
+}
+
+.logo {
+    width: 63px;
+    height: 58px;
+    margin: 2% 91% 1% 1%;
+    position: absolute;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 46px 5.9% 8px 0;
+    padding: 0;
+    border-right: 1px;
+    border-color: white;
+}
+
+.nav-item {
+    text-align: center;
+    height: 100%;
+    width: 11%;
+    float: left;
+    margin-right: 4%;
+    color: #585858;
+}
+
+/* 세로 구분선 */
+
+.hr-div2 {
+    display: flex;
+    width: 1px;
+    height: 1500px;
+    border-left: 1px solid #ffffff;
+    margin-left: 163px;
+}
+
+
+
+.hr-div {
+    display: flex;
+    width: 1px;
+    height: 1500px;
+    border-left: 1px solid #ffffff;
+    margin-right: -13px;
+}
+
+.nav-right {
+    display: block;
+    margin: 30px 1% 1% -11px;
+}
+
+.nav-info {
+    width: 100%;
+    color: #585858;
+}
+
+/* 멤버 페이지일 때 >>> member 텍스트 흰색*/
+
+ul.nav-right > li:nth-child(2) {
+    color: #ffffff;
+}
+
+.t {
+    position: absolute;
+    display: block;
+    width: 20%;
+    left: 20.5%;
+    top: 15px;
+}
+
+.t1 {
+    font-size: 13px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: normal;
+    color: #585858;
+    text-align: start;
+    margin-left: 4px;
+}
+
+.t2 {
+    font-size: 30px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    text-align: start;
+}
+
+.f-panel {
+    font-family: 'Noto Sans KR', sans-serif;
+    margin-top: 215px;
+    position: absolute;
+    width: 82%;
+    height: 95.32vh;
+    z-index: 99;
+    margin-left: 17%;
+    margin-bottom: 20px;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 80px;
+}
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 80px;
+    justify-content: flex-start;
+}
+
+.section {
+    width: 210px;
+    display: block;
+}
+
+.f-img {
+    width:15.62vw;
+    height:15.62vh;
+    margin-bottom:2%;
+    background-color: white;
+}
+
+.f-title {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 1.26vh;
+}
+
+.f-content1 {
+    color: #585858;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.f-content2 {
+    font-size: 12px;
+    margin: -13px 0 0 0;
+}
+
+.panel {
+    margin: 0 auto;
+    position: absolute;
+    top: 10px;
+    width: 78%;
+    height: 80%;
+    margin-top: 130px;
+    z-index: 99;
+    margin-left: 10%;
+}
+
+.arrow {
+    z-index: 99;
+    font-family: 'Noto Sans KR', sans-serif;
+    display: flex;
+    position: absolute;
+    top: 549px;
+    left: 13%;
+    align-items: center;
+}
+
+.img-arrow {
+    width: 58px;
+    height: 52px;
+}
+
+.text-arrow {
+    color: #575757;
+    font-size: 20px;
+    align-items: center;
+    margin-top: 1px;
+    margin-left: 10px;
+}
+
+.text-arrow:hover {
+    cursor: pointer;
+}
+
+.grade {
+    position:fixed;
+    top : 18%;
+    right:4%;
+    display : flex;
+}
+
+.grade-list {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+/* 움직이는 모션 */
+.arrow {text-align: center; margin-top: 20px;}
+.img-arrow, .text-arrow {animation: motion 0.5s linear 0s infinite alternate; margin-top: 0px;}
+        
+@keyframes motion {
+	0% {margin-top: 0px;}
+	100% {margin-top: 10px;}
+}
+
+.ff {
+    width: 82%;
+    height: 590px;
+    background-color: #fff;
+    margin-bottom: 10px;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.year {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    filter: brightness(50%);
+}
+
+.content-p {
+    font-size: 17px;
+    font-weight: 100;
+    width: 75%;
+    margin: 50px 0 10px 0;
+}
