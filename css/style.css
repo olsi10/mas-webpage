@@ -309,7 +309,7 @@ ul.nav-right > li:nth-child(1) {
 
 .section {
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 .f-title {
