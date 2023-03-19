@@ -544,12 +544,12 @@ ul.nav-right > li:nth-child(2) {
     position: absolute;
     width: 21%;
     /* margin-top: 28%; */
-    left: 13%;
-    top: 67%;
+    left: 12%;
+    top: 28%;
 }
 
 .personal-moto {
-    font-size: 30px;
+    font-size: 26px;
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
 }
