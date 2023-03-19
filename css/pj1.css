@@ -180,14 +180,13 @@ ul.nav-right > li:nth-child(2) {
 
 .f-panel {
     font-family: 'Noto Sans KR', sans-serif;
-    margin-top: 190px;
+    margin-top: 215px;
     position: absolute;
-    width: 80%;
+    width: 82%;
     height: 95.32vh;
     z-index: 99;
     margin-left: 17%;
     margin-bottom: 20px;
-    display: flex;
 }
 
 .footer {
@@ -253,18 +252,18 @@ ul.nav-right > li:nth-child(2) {
     display: flex;
     position: absolute;
     top: 549px;
-    left: 17%;
+    left: 13%;
     align-items: center;
 }
 
 .img-arrow {
-    width: 80px;
-    height: 73px;
+    width: 58px;
+    height: 52px;
 }
 
 .text-arrow {
     color: #575757;
-    font-size: 18px;
+    font-size: 20px;
     align-items: center;
     margin-top: 1px;
     margin-left: 10px;
@@ -296,10 +295,28 @@ ul.nav-right > li:nth-child(2) {
 	100% {margin-top: 10px;}
 }
 
-#nav > nav > ul.nav-list > li:nth-child(3) > a {
-    color: #fff;
+.ff {
+    width: 82%;
+    height: 590px;
+    background-color: #fff;
+    margin-bottom: 10px;
 }
 
-#panel > div:nth-child(3) > div:nth-child(2) {
-    margin-top: 23px;
+.title {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.year {
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    filter: brightness(50%);
+}
+
+.content-p {
+    font-size: 17px;
+    font-weight: 100;
+    width: 75%;
+    margin: 50px 0 10px 0;
 }
